@@ -26,7 +26,7 @@ const Header = () => (
           }}
         >
           <DiCssdeck size="3rem" />
-          <Span>Portfolio</Span>
+          <Span>My Portfolio</Span>
         </a>
       </Link>
     </Div1>
@@ -37,7 +37,7 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="#teck">
+        <Link href="#tech">
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
