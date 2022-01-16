@@ -1,18 +1,14 @@
 import React from 'react';
 import CountUp from 'react-countup';
 
-import {
-  Section,
-  SectionDivider,
-  SectionTitle,
-} from '../../styles/GlobalComponents';
+import { Section, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
   { number: 46, text: 'Open Source Projects' },
   { number: 10, text: 'Certificates' },
   { number: 1, text: 'Github commit per day' },
-  { number: 5000, text: 'Github Stars' },
+  { number: 100, text: 'Live session workshop' },
 ];
 
 const Acomplishments = () => (
